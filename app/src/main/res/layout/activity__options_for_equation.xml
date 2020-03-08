@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    tools:context="com.example.efficient.equation_solver.Activity_OptionsForEquation"
+    android:background="#8A9FB4">
+    <Button
+        android:id="@+id/polynomial_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/polynomial"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="119dp"
+        />
+
+    <Button
+        android:id="@+id/linear_button"
+        android:layout_below="@+id/polynomial_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/linear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        />
+
+    <Button
+        android:id="@+id/database_button"
+        android:layout_below="@+id/polynomial_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/database"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="151dp"
+        />
+</RelativeLayout>

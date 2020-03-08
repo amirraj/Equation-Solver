@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.efficient.equation_solver">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_final"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_final"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Activity_database">
+            <intent-filter>
+                <action android:name="android.intent.action.Activity_database" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Activity_Linear">
+            <intent-filter>
+                <action android:name="android.intent.action.Activity_Linear" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Activity_OptionsForEquation">
+            <intent-filter>
+                <action android:name="android.intent.action.Activity_OptionsForEquation" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Activity_OptionsForLinear">
+            <intent-filter>
+                <action android:name="android.intent.action.Activity_OptionsForLinear" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Activity_OptionsForPolynomial">
+            <intent-filter>
+                <action android:name="android.intent.action.Activity_OptionsForPolynomial" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Activity_polynomial">
+            <intent-filter>
+                <action android:name="android.intent.action.Activity_polynomial" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

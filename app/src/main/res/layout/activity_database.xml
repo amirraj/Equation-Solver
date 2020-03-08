@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/equationET"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="equation" />
+
+    <EditText
+        android:id="@+id/rootET"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="root" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/addNewContactBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="add new"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/goToSecondPageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="get all "
+            android:textAllCaps="false" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/contactIdET"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:hint="Id"
+            android:inputType="number"/>
+        <Button
+            android:id="@+id/getSingleContactBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get By Id"
+            android:textAllCaps="false"
+            android:background="#666fc2"
+            />
+        <Button
+            android:id="@+id/deleteContactBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete By Id"
+            android:textAllCaps="false"
+            android:background="#4ee7b1"
+            android:layout_marginLeft="10dp"
+            />
+
+        <Button
+            android:id="@+id/updateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="update By Id"
+            android:textAllCaps="false"
+            android:background="#e74ee2"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/displayTV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:background="#ff6e35"
+        android:text=""
+        android:scrollbars = "vertical"
+        android:textSize="20sp"/>
+
+</LinearLayout>
+

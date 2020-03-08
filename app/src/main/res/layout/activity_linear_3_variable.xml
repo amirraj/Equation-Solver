@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="80dp">
+
+    <EditText
+        android:id="@+id/x1value"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/x1char"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/x1value"
+        android:text="X  +  "
+        android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/y1value"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/x1char"/>
+    <TextView
+        android:id="@+id/y1char"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/y1value"
+        android:text="Y +  "
+        android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/z1value"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/y1char"/>
+    <TextView
+        android:id="@+id/z1char"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/z1value"
+        android:text=" Z = "
+        android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/constant1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/z1char"/>
+    <EditText
+        android:id="@+id/x2value"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/x1value"/>
+    <TextView
+        android:id="@+id/x2char"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/x1value"
+        android:layout_toRightOf="@+id/x2value"
+        android:text="X  +  "
+        android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/y2value"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/x1value"
+        android:layout_toRightOf="@+id/x2char"/>
+    <TextView
+        android:id="@+id/y2char"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/x1value"
+        android:layout_toRightOf="@+id/y2value"
+        android:text="Y +  "
+        android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/z2value"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/x1value"
+        android:layout_toRightOf="@+id/y1char"/>
+    <TextView
+        android:id="@+id/z2char"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/x1value"
+        android:layout_toRightOf="@+id/z2value"
+        android:text=" Z = "
+        android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/constant2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/x1value"
+        android:layout_toRightOf="@+id/z2char"/>
+    <EditText
+        android:id="@+id/x3value"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/x2value"/>
+    <TextView
+        android:id="@+id/x3char"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/x2value"
+        android:layout_toRightOf="@+id/x3value"
+        android:text="X  +  "
+        android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/y3value"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/x2value"
+        android:layout_toRightOf="@+id/x3char"/>
+    <TextView
+        android:id="@+id/y3char"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/x2value"
+        android:layout_toRightOf="@+id/y3value"
+        android:text="Y +  "
+        android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/z3value"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/x2value"
+        android:layout_toRightOf="@+id/y3char"/>
+    <TextView
+        android:id="@+id/z3char"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/x2value"
+        android:layout_toRightOf="@+id/z3value"
+        android:text=" Z = "
+        android:textSize="30dp"/>
+    <EditText
+        android:id="@+id/constant3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/x2value"
+        android:layout_toRightOf="@+id/z3char"/>
+    <Button
+        android:id="@+id/solution_3var"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/x2value"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/solution" />
+
+    <ListView
+        android:id="@+id/linear_listview3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/solution_3var"
+        android:layout_marginTop="30dp" />
+
+</RelativeLayout>

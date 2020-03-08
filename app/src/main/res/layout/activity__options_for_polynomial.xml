@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.efficient.equation_solver.Activity_OptionsForPolynomial"
+    android:background="#8A9FB4">
+
+
+    <Button
+        android:id="@+id/degree_two"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/degree_two"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/degree_three"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/degree_three"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"/>
+
+    <Button
+        android:id="@+id/degree_four"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/degree_four"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"/>
+
+    <Button
+        android:id="@+id/degree_five"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/degree_five"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"/>
+
+    <Button
+        android:id="@+id/degree_six"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/degree_six"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"/>
+
+</RelativeLayout>

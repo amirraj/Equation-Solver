@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.efficient.equation_solver.Activity_OptionsForLinear"
+    android:background="#8A9FB4">
+    <Button
+        android:id="@+id/two_variable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linear_two_variable"
+        android:layout_marginTop="140dp"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/three_variable"
+        android:layout_below="@+id/two_variable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linear_three_variable"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
